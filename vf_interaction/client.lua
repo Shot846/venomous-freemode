@@ -383,7 +383,7 @@ Citizen.CreateThread(function()
     Wait(500)
 
     while true do
-        Wait(10)
+        Wait(0)
         if firstTickPassed then
             coords = GetEntityCoords(PlayerPedId(), true)
 
